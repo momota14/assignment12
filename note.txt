@@ -1,0 +1,1 @@
+assignment_url = https://assignment12-self.vercel.app
