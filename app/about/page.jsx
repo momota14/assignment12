@@ -1,9 +1,13 @@
-function About() {
+import About from "@/components/About";
+import TakeBuisness from "@/components/TakeBuisness";
+
+function AboutPage() {
   return (
-    <div>
-      <h1>THis is About page</h1>
+    <div className="py-5">
+      <About />
+      <TakeBuisness />
     </div>
   );
 }
 
-export default About;
+export default AboutPage;
