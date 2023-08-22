@@ -8,11 +8,11 @@ function BlogCard({ image, title, description, link }) {
         <Image className="rounded-t-lg w-full h-auto object-cover " src={image} alt="" fill={true} />
       </div>
       <div className="p-5">
-        <a href="#">
+        <Link href={link}>
           <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
             {title}
           </h5>
-        </a>
+        </Link>
         <p className="mb-3 text-sm text-gray-700 dark:text-gray-400">
           {description}
         </p>
