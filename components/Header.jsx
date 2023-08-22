@@ -19,7 +19,7 @@ export default function Header() {
         <div className="lg:col-span-7 flex items-center lg:w-[460px] text-center lg:text-left mb-4">
           <div className="flex items-center lg:items-start flex-col">
             <div className="text-[30px] font-medium">
-              Welcome to our Rising News
+              Welcome to our Rising Star
             </div>
             <p className="py-5">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam

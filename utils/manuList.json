@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "name": "About",
+    "link": "/about"
+  },
+  {
+    "id": 3,
+    "name": "blog",
+    "link": "/blog"
+  },
+  {
+    "id": 4,
+    "name": "contact",
+    "link": "/contact"
+  }
+]
