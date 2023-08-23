@@ -4,12 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  headers: [
-    {
-      key: "X-Frame-Options",
-      value: "DENY",
-    },
-  ],
   distDir: "build",
   async headers() {
     return [
