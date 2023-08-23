@@ -34,7 +34,7 @@ export default function Header() {
           </div>
         </div>
         <div className="lg:col-span-5 flex items-center my-9 lg:my-0">
-          <Image src={Img} alt="sad" width={0} height={0} className="w-auto" />
+          <Image src={Img} alt="sad" width={0} height={0} className="w-auto"  priority={true} />
         </div>
       </div>
     </>
