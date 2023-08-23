@@ -1,1 +1,1 @@
-assignment_url = https://assignment12-self.vercel.app
+assignment_url = https://assignment12-4dh4subna-momota14.vercel.app/ or https://assignment12-self.vercel.app
