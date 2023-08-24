@@ -15,7 +15,7 @@ async function SingleBlog({ params }) {
 
   return (
     <div>
-      <div className="w-full flex flex-col bg-white shadow rounded-xl overflow-hidden">
+      <div className="w-full flex flex-col bg-white shadow rounded-xl overflow-hidden md:px-9">
         <Image
           src={img}
           alt="blog_img"
