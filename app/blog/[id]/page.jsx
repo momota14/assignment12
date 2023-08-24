@@ -14,8 +14,8 @@ async function SingleBlog({ params }) {
   }
 
   return (
-    <div>
-      <div className="w-full flex flex-col bg-white shadow rounded-xl overflow-hidden md:px-9">
+    <div className="md:px-20">
+      <div className="w-full flex flex-col bg-white shadow rounded-xl overflow-hidden">
         <Image
           src={img}
           alt="blog_img"
@@ -23,18 +23,18 @@ async function SingleBlog({ params }) {
           width={0}
           className="w-full h-auto"
         />
-        <div className="py-4 px-3">
+        <div className="py-7 px-4 md:px-7">
           <div className="text-xl font-semibold">{title}</div>
-          <div className="text-gray-600">
-            <span>Publish At: {moment(created_at).format("ll")}</span>
-            <span className="ml-4">
+          <div className="text-gray-600 flex flex-col md:flex-row">
+            <div>Publish At: {moment(created_at).format("ll")}</div>
+            <div className="ml-4">
               Updated At: {moment(updated_at).format("ll")}
-            </span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-white rounded-xl p-4 shadow my-3">{content}</div>
+      <div className="bg-white rounded-xl md:p-7 p-4 shadow my-3">{content}</div>
     </div>
   );
 }
