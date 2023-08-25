@@ -14,7 +14,7 @@ async function SingleBlog({ params }) {
   }
 
   return (
-    <div className="md:px-20">
+    <div className="md:px-24">
       <div className="w-full flex flex-col bg-white shadow rounded-xl overflow-hidden">
         <Image
           src={img}
@@ -25,9 +25,9 @@ async function SingleBlog({ params }) {
         />
         <div className="py-7 px-4 md:px-7">
           <div className="text-xl font-semibold">{title}</div>
-          <div className="text-gray-600 flex flex-col md:flex-row">
+          <div className="text-gray-600 flex flex-col md:flex-row gap-3">
             <div>Publish At: {moment(created_at).format("ll")}</div>
-            <div className="ml-4">
+            <div>
               Updated At: {moment(updated_at).format("ll")}
             </div>
           </div>
